@@ -1,0 +1,103 @@
+ /* Estilos básicos para la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff5722;
+            color: #060099;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .horario {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .dia {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .dia h3 {
+            margin: 10px 0;
+            color: #ff5722;
+        }
+
+        .dia p {
+            color: #555;
+            font-size: 14px;
+        }
+         header {
+            background-color: #F89101;
+            color: #060099;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .boton {
+            padding: 15px 30px;
+            background-color: #F89101;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+
+        .boton:hover {
+            background-color: #d84315;
+        }
+
+
+        footer {
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
